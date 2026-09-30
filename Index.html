@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>MonSite</h2>
+
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div>
+                <h1>Bienvenue sur notre site</h1>
+
+                <p>
+                    Découvrez nos services et profitez d'une
+                    expérience simple et moderne.
+                </p>
+
+                <button onclick="commencer()">Commencer</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>À propos</h2>
+
+            <p>
+                Nous proposons des solutions simples et efficaces
+                pour répondre à vos besoins.
+            </p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Nos services</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Développement</h3>
+                    <p>
+                        Création de sites web modernes et rapides.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Design</h3>
+                    <p>
+                        Des interfaces simples et agréables.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Support</h3>
+                    <p>
+                        Assistance et accompagnement pour vos projets.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+
+            <input type="text" id="nom" placeholder="Votre nom">
+
+            <button onclick="envoyer()">Envoyer</button>
+
+            <p id="message"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MonSite - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
